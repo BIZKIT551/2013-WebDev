@@ -1,0 +1,27 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-FAMILY: Segoe UI Light; BACKGROUND: url(img/bgrnd.jpg); FONT-SIZE: 11pt
+}
+#MainPage {
+	WIDTH: 1366px
+}
+#Header {
+	MARGIN: auto; WIDTH: 795px; HEIGHT: 150px; COLOR: white
+}
+#Logo {
+	WIDTH: 150px; FLOAT: left; HEIGHT: 150px
+}
+#Controls {
+	MARGIN: auto; WIDTH: 600px; FLOAT: left; HEIGHT: 150px
+}
+#MenuItem {
+	BORDER-BOTTOM: rgb(0,176,80) 2px solid; TEXT-ALIGN: center; BORDER-LEFT: rgb(0,176,80) 2px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 60px; PADDING-RIGHT: 5px; FLOAT: left; BORDER-TOP: rgb(0,176,80) 2px solid; BORDER-RIGHT: rgb(0,176,80) 0px solid; PADDING-TOP: 5px
+}
+#Search {
+	BORDER-BOTTOM: rgb(0,176,80) 3px solid; TEXT-ALIGN: right; BORDER-LEFT: rgb(0,176,80) 3px solid; MARGIN-TOP: 40px; WIDTH: 500px; MARGIN-BOTTOM: 20px; HEIGHT: 30px; COLOR: white; MARGIN-LEFT: 100px; BORDER-TOP: rgb(0,176,80) 3px solid; BORDER-RIGHT: rgb(0,176,80) 3px solid
+}
+#Menu {
+	MARGIN: auto; WIDTH: 500px
+}

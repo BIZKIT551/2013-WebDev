@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><title>Bizkit</title>
+<!--<link href="css/style.css" type="text/css" rel="stylesheet" />-->
+<style type="text/css">
+
+body
+{
+font-family: Calibri;
+background-color:black;
+background-image:url('css/img/bg.png');
+}
+
+#MainPage
+{
+width:1024px;
+height:862px;
+overflow-y:hidden;
+overflow-x:hidden; 
+margin:auto;
+}
+
+#Logo, #Controls, #SearchButton, #SearchBar
+{
+float: left;
+}
+
+.MenuItem
+{
+width:100px;
+height:29px;
+background-image:url('css/img/MenuButton.png');
+float:left;
+font-size: 10pt;
+color:white;
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 5px;
+text-align:center;
+}
+
+#Controls
+{
+margin-left: 10px;
+}
+
+#Middle
+{
+background-image:url('css/img/content_box.png');
+height:747px;
+width: 730px;
+margin-right:74px;
+
+}
+
+</style>
+</head>
+<body>
+<div id="MainPage">
+	<div id="Header">
+		<div id="Logo"><img src="css/img/BIZKITlogo.png" width="150"></div>
+		<div id="Controls">
+			<div id="Search">
+				<input type="text" style="width:650px;background-color: transparent; color:#1FD203; margin-top: 70px; font-family: Calibri;"><input type="submit" value="Search" style="background-color:transparent; color:#1FD203; font-family: Calibri; position: top: 90px; left: 5px;"><br>
+			</div>
+			<div id="Menu">
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span><a href="index.html">Home</div>
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span>Forum</div>
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span>News</div>
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span><a href="IRC.html">IRC</div>
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span>User CP</div>
+				<div class="MenuItem"><span style="font-size:6px;"><br/></span><a href="Log_Reg.html">Login/Register</div>
+			</div>
+		</div>
+	</div>
+<div id="Middle"><iframe src="http://lightirc.com/start/?host=irc.lightirc.com&autojoin=%23test&showNickSelection=true&styleURL=css%2Fgreen.css&nick=User_%25" style="width:900px; height:720px;"></iframe>
+</div>
+</div>
+</div>
+</body>
+</html>
